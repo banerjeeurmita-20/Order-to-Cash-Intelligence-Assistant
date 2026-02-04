@@ -40,8 +40,8 @@ order-to-cash-intelligence/
 
 | Step | Description                    | Status   |
 |------|--------------------------------|----------|
-| **1** | Project setup & GitHub        | **Current** |
-| 2    | Data model (Azure SQL DDL)    | Pending  |
+| 1    | Project setup & GitHub        | Done     |
+| **2** | Data model (Azure SQL DDL)    | **Done** |
 | 3    | Sample / mock data            | Pending  |
 | 4    | Azure Data Factory – ingestion | Pending  |
 | 5    | Databricks – document pipeline | Pending  |
