@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Azure
+.azure/
+*.publishsettings
+local.settings.json
+.env
+.env.local
+.env.*.local
+
+# Databricks
+.databrickscfg
+
+# Data (keep structure, ignore large/sensitive files)
+data/raw/*.csv
+data/raw/*.json
+data/curated/*.parquet
+*.pdf
+!data/raw/.gitkeep
+!data/curated/.gitkeep
+
+# Logs and temp
+*.log
+tmp/
+temp/
+.cache/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# Secrets - never commit
+*.pem
+secrets/
+*.key
